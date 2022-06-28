@@ -1,14 +1,13 @@
 import React from "react"
-import Head from "../components/head";
+import Layout from "../components/layout";
 
 const IndexPage = () => {
 
   return (
-    <main>
+    <Layout>
       <title>메인페이지</title>
-      <Head />
       <h1>메인페이지 입니다</h1>
-    </main>
+    </Layout>
   )
 }
 
