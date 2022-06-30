@@ -13,7 +13,6 @@ function Layout({ pageTitle, children }) {
       }
     }
   `);
-
   return (
     <div className={container}>
       <title>
